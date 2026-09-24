@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<!-- Memberitahu browser bahwa dokumen ini menggunakan HTML5 -->
+
+<html lang="id">
+<!-- Membuka dokumen HTML.
+     lang="id" berarti bahasa utama halaman adalah Bahasa Indonesia -->
+
+<head>
+    <!-- Bagian head berisi informasi tentang website,
+         bukan konten utama yang ditampilkan di halaman -->
+
+    <meta charset="UTF-8">
+    <!-- UTF-8 memungkinkan website menampilkan berbagai karakter,
+         termasuk simbol seperti ✓, ↑, ₱, dan karakter Indonesia -->
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <!-- Membuat website menyesuaikan ukuran layar perangkat.
+         Penting agar website responsive di HP, tablet, dan PC -->
+
+    <title>Kasmate | Kelola Uang Kas Lebih Mudah</title>
+    <!-- Judul yang muncul pada tab browser -->
+
+    <link rel="icon" type="image/png" href="LogoApkClassFinance2026.png">
+    <!-- Mengatur icon kecil yang muncul pada tab browser (favicon) -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Menghubungkan file HTML dengan file CSS bernama style.css -->
+
+</head>
+
+
+<body>
+<!-- Semua bagian website yang terlihat oleh pengguna berada di dalam body -->
+
+
+<!-- ==================================================
+     NAVBAR
+================================================== -->
+
+<header class="navbar">
+    <!-- Header digunakan sebagai bagian atas website.
+         class="navbar" nantinya diatur tampilannya oleh CSS -->
+
+    <div class="container nav-container">
+        <!-- container membatasi lebar isi website.
+             nav-container mengatur layout navbar -->
+
+        <!-- LOGO -->
+
+        <a href="#" class="logo">
+            <!-- <a> digunakan sebagai link.
+                 href="#" berarti link sementara yang kembali ke bagian atas.
+                 class="logo" digunakan untuk mengatur tampilan logo -->
+
+            <div class="logo-icon">
+                Rp
+            </div>
+            <!-- Kotak merah yang berisi tulisan Rp -->
+
+            <span>Kasmate</span>
+            <!-- Nama website -->
+
+        </a>
+
+
+        <!-- NAVIGATION -->
+
+        <nav class="nav-menu">
+            <!-- <nav> berisi menu navigasi website -->
+
+            <a href="#home">
+                Home
+            </a>
+            <!-- Ketika diklik, browser menuju elemen dengan id="home" -->
+
+            <a href="#features">
+                Features
+            </a>
+            <!-- Menu menuju section yang memiliki id="features" -->
+
+            <a href="#about">
+                About
+            </a>
+            <!-- Menu menuju section About -->
+
+            <a href="#how-it-works">
+                How It Works
+            </a>
+            <!-- Menu menuju section How It Works -->
+
+        </nav>
+
+
+        <!-- AUTH BUTTON -->
+
+        <div class="nav-auth">
+            <!-- Tempat untuk tombol Login dan Register -->
+
+            <a href="#" class="login-link">
+                Login
+            </a>
+            <!-- Tombol Login -->
+
+            <a href="#" class="register-button">
+                Register
+            </a>
+            <!-- Tombol Register -->
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+<!-- ==================================================
+     HERO
+================================================== -->
+
+<main>
+<!-- <main> berisi konten utama website -->
+
+
+<section class="hero" id="home">
+    <!-- Section utama / bagian pertama website.
+         id="home" membuat menu Home bisa menuju bagian ini -->
+
+    <div class="container hero-container">
+
+        <!-- HERO TEXT -->
+
+        <div class="hero-content">
+            <!-- Bagian kiri hero yang berisi teks -->
+
+            <div class="hero-badge">
+                Smart Class Finance
+            </div>
+            <!-- Label kecil di atas judul -->
+
+            <h1>
+                Kelola Uang Kas
+                <span>Lebih Mudah.</span>
+            </h1>
+            <!-- Judul utama.
+                 <span> digunakan supaya "Lebih Mudah." bisa
+                 diberikan warna berbeda melalui CSS -->
+
+            <p>
+                Kasmate membantu kelas mengelola uang kas,
+                mencatat transaksi, dan memantau keuangan
+                dengan cara yang sederhana dan terorganisir.
+            </p>
+            <!-- Deskripsi singkat tentang Kasmate -->
+
+
+            <div class="hero-buttons">
+                <!-- Tempat untuk dua tombol -->
+
+                <a href="#" class="primary-button">
+                    Mulai Sekarang →
+                </a>
+                <!-- Tombol utama -->
+
+                <a href="#features" class="secondary-button">
+                    Pelajari Lebih Lanjut
+                </a>
+                <!-- Tombol kedua yang menuju bagian Features -->
+
+            </div>
+
+
+            <div class="hero-stat">
+                <!-- Menampilkan tiga kelebihan Kasmate -->
+
+                <div>
+                    <strong>
+                        Simple
+                    </strong>
+
+                    <span>
+                        Mudah digunakan
+                    </span>
+                </div>
+
+                <div>
+                    <strong>
+                        Organized
+                    </strong>
+
+                    <span>
+                        Data lebih teratur
+                    </span>
+                </div>
+
+                <div>
+                    <strong>
+                        Efficient
+                    </strong>
+
+                    <span>
+                        Hemat waktu
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- HERO DASHBOARD PREVIEW -->
+
+        <div class="hero-preview">
+            <!-- Bagian kanan hero yang menampilkan
+                 tampilan contoh dashboard -->
+
+            <div class="preview-window">
+                <!-- Kotak utama dashboard preview -->
+
+                <div class="preview-top">
+                    <!-- Bagian atas seperti header browser -->
+
+                    <div class="window-dots">
+                        <!-- Tiga titik kecil seperti tombol window -->
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                    <span>
+                        kasmate.id
+                    </span>
+                    <!-- Tulisan yang dibuat seolah-olah
+                         merupakan alamat website -->
+
+                </div>
+
+
+                <div class="preview-body">
+                    <!-- Isi dashboard -->
+
+                    <div class="preview-sidebar">
+                        <!-- Sidebar kecil di sebelah kiri -->
+
+                        <div class="preview-logo">
+                            K
+                        </div>
+                        <!-- Logo K -->
+
+                        <div class="preview-side-line active"></div>
+                        <div class="preview-side-line"></div>
+                        <div class="preview-side-line"></div>
+                        <div class="preview-side-line"></div>
+                        <!-- Garis-garis yang dibuat sebagai
+                             gambaran menu dashboard -->
+
+                    </div>
+
+
+                    <div class="preview-content">
+                        <!-- Isi utama dashboard -->
+
+                        <div class="preview-heading">
+
+                            <div>
+                                <small>
+                                    Dashboard
+                                </small>
+
+                                <h3>
+                                    Uang Kas Kelas
+                                </h3>
+                            </div>
+
+                            <div class="preview-profile">
+                                U
+                            </div>
+                            <!-- Lingkaran profil -->
+
+                        </div>
+
+
+                        <div class="preview-balance">
+                            <!-- Kotak saldo -->
+
+                            <small>
+                                Total Saldo
+                            </small>
+
+                            <strong>
+                                Rp 2.450.000
+                            </strong>
+
+                            <span>
+                                ↑ Keuangan kelas terkelola
+                            </span>
+
+                        </div>
+
+
+                        <div class="preview-cards">
+                            <!-- Dua kartu pemasukan dan pengeluaran -->
+
+                            <div class="mini-card">
+
+                                <span>
+                                    Pemasukan
+                                </span>
+
+                                <strong>
+                                    Rp 3.200.000
+                                </strong>
+
+                            </div>
+
+
+                            <div class="mini-card">
+
+                                <span>
+                                    Pengeluaran
+                                </span>
+
+                                <strong>
+                                    Rp 750.000
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="preview-transactions">
+                            <!-- Bagian transaksi terbaru -->
+
+                            <div class="preview-title">
+                                Transaksi Terbaru
+                            </div>
+
+
+                            <div class="fake-row">
+                                <!-- Satu baris transaksi -->
+
+                                <span class="fake-avatar"></span>
+                                <!-- Lingkaran avatar -->
+
+                                <div>
+                                    <b>Pembayaran Kas</b>
+                                    <small>Hari ini</small>
+                                </div>
+
+                                <strong>
+                                    +Rp 50.000
+                                </strong>
+
+                            </div>
+
+
+                            <div class="fake-row">
+
+                                <span class="fake-avatar"></span>
+
+                                <div>
+                                    <b>Pembelian kebutuhan kelas</b>
+                                    <small>Kemarin</small>
+                                </div>
+
+                                <strong class="minus">
+                                    -Rp 25.000
+                                </strong>
+                                <!-- class="minus" membuat pengeluaran
+                                     memiliki style berbeda -->
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     FEATURES
+================================================== -->
+
+<section class="features section" id="features">
+    <!-- Section fitur.
+         id="features" digunakan agar menu Features bisa
+         menuju bagian ini -->
+
+    <div class="container">
+
+        <div class="section-heading">
+            <!-- Judul section -->
+
+            <span>
+                FEATURES
+            </span>
+
+            <h2>
+                Semua kebutuhan kas
+                <br>
+                dalam satu tempat.
+            </h2>
+            <!-- <br> membuat teks pindah ke baris berikutnya -->
+
+            <p>
+                Kasmate dirancang untuk membuat pengelolaan
+                uang kas kelas menjadi lebih praktis dan transparan.
+            </p>
+
+        </div>
+
+
+        <div class="feature-grid">
+            <!-- Container yang menampung semua kartu fitur -->
+
+
+            <article class="feature-card">
+                <!-- Satu kartu fitur -->
+
+                <div class="feature-icon">
+                    ₱
+                </div>
+
+                <h3>
+                    Kelola Saldo
+                </h3>
+
+                <p>
+                    Pantau jumlah saldo kas kelas
+                    dengan informasi yang jelas dan mudah dipahami.
+                </p>
+
+            </article>
+
+
+            <article class="feature-card">
+
+                <div class="feature-icon">
+                    +
+                </div>
+
+                <h3>
+                    Pencatatan Kas
+                </h3>
+
+                <p>
+                    Catat setiap pemasukan dan pengeluaran
+                    agar seluruh transaksi tersusun dengan rapi.
+                </p>
+
+            </article>
+
+
+            <article class="feature-card">
+
+                <div class="feature-icon">
+                    ♙
+                </div>
+
+                <h3>
+                    Data Anggota
+                </h3>
+
+                <p>
+                    Kelola data anggota kelas dan pantau
+                    status pembayaran kas masing-masing.
+                </p>
+
+            </article>
+
+
+            <article class="feature-card">
+
+                <div class="feature-icon">
+                    ↻
+                </div>
+
+                <h3>
+                    Riwayat Transaksi
+                </h3>
+
+                <p>
+                    Lihat kembali seluruh aktivitas pemasukan
+                    dan pengeluaran kapan saja.
+                </p>
+
+            </article>
+
+
+            <article class="feature-card">
+
+                <div class="feature-icon">
+                    ✓
+                </div>
+
+                <h3>
+                    Transparan
+                </h3>
+
+                <p>
+                    Membantu anggota kelas mengetahui
+                    bagaimana uang kas digunakan.
+                </p>
+
+            </article>
+
+
+            <article class="feature-card">
+
+                <div class="feature-icon">
+                    ⚡
+                </div>
+
+                <h3>
+                    Cepat & Praktis
+                </h3>
+
+                <p>
+                    Pengelolaan kas menjadi lebih cepat
+                    tanpa perlu mencatat semuanya secara manual.
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     ABOUT
+================================================== -->
+
+<section class="about section" id="about">
+    <!-- Section informasi tentang Kasmate -->
+
+    <div class="container about-container">
+
+
+        <div class="about-visual">
+            <!-- Bagian visual berwarna merah -->
+
+            <div class="about-box">
+
+                <div class="about-logo">
+                    Rp
+                </div>
+
+                <span>
+                    KASMATE
+                </span>
+
+            </div>
+
+
+            <!-- Kartu yang dibuat melayang di atas visual -->
+
+            <div class="floating-card card-one">
+
+                <strong>
+                    +Rp 50.000
+                </strong>
+
+                <span>
+                    Kas masuk
+                </span>
+
+            </div>
+
+
+            <div class="floating-card card-two">
+
+                <strong>
+                    Rp 2.450.000
+                </strong>
+
+                <span>
+                    Total saldo
+                </span>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="about-content">
+
+            <span class="section-label">
+                ABOUT KASMATE
+            </span>
+
+            <h2>
+                Pengelolaan kas kelas
+                tidak harus rumit.
+            </h2>
+
+            <p>
+                Kasmate adalah website pengelolaan uang kas
+                yang dibuat untuk membantu kelas mengatur
+                keuangan secara lebih sederhana.
+            </p>
+
+            <p>
+                Dengan tampilan yang mudah digunakan,
+                informasi saldo, data anggota, dan transaksi
+                dapat dikelola dalam satu tempat.
+            </p>
+
+
+            <div class="about-points">
+
+                <div>
+                    <span>✓</span>
+                    Pengelolaan lebih teratur
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    Informasi lebih transparan
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    Mudah digunakan oleh anggota kelas
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     HOW IT WORKS
+================================================== -->
+
+<section class="how section" id="how-it-works">
+    <!-- Section yang menjelaskan langkah penggunaan -->
+
+    <div class="container">
+
+        <div class="section-heading center">
+
+            <span>
+                HOW IT WORKS
+            </span>
+
+            <h2>
+                Mulai menggunakan Kasmate
+            </h2>
+
+            <p>
+                Hanya dengan beberapa langkah sederhana.
+            </p>
+
+        </div>
+
+
+        <div class="steps">
+
+            <div class="step">
+
+                <div class="step-number">
+                    01
+                </div>
+
+                <h3>
+                    Buat Akun
+                </h3>
+
+                <p>
+                    Daftarkan akun untuk mulai menggunakan
+                    sistem pengelolaan kas.
+                </p>
+
+            </div>
+
+
+            <div class="step-line"></div>
+            <!-- Garis penghubung antar langkah -->
+
+
+            <div class="step">
+
+                <div class="step-number">
+                    02
+                </div>
+
+                <h3>
+                    Buat Kelas
+                </h3>
+
+                <p>
+                    Masukkan informasi kelas dan
+                    tambahkan anggota yang diperlukan.
+                </p>
+
+            </div>
+
+
+            <div class="step-line"></div>
+
+
+            <div class="step">
+
+                <div class="step-number">
+                    03
+                </div>
+
+                <h3>
+                    Kelola Kas
+                </h3>
+
+                <p>
+                    Catat pembayaran, pengeluaran,
+                    dan pantau saldo secara berkala.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     CTA
+================================================== -->
+
+<section class="cta">
+    <!-- CTA = Call To Action.
+         Bagian yang mengajak pengguna melakukan sesuatu -->
+
+    <div class="container cta-container">
+
+        <div>
+
+            <span>
+                READY TO GET STARTED?
+            </span>
+
+            <h2>
+                Kelola uang kas kelas
+                dengan lebih mudah.
+            </h2>
+
+            <p>
+                Mulai gunakan Kasmate untuk membuat
+                pengelolaan kas lebih rapi dan transparan.
+            </p>
+
+        </div>
+
+
+        <a href="#" class="cta-button">
+            Buat Akun Gratis →
+        </a>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- ==================================================
+     FOOTER
+================================================== -->
+
+<footer class="footer">
+    <!-- Footer adalah bagian paling bawah website -->
+
+    <div class="container footer-main">
+
+
+        <div class="footer-brand">
+
+            <a href="#" class="logo">
+
+                <div class="logo-icon">
+                    Rp
+                </div>
+
+                <span>
+                    Kasmate
+                </span>
+
+            </a>
+
+
+            <p>
+                Solusi sederhana untuk membantu
+                kelas mengelola uang kas dengan lebih
+                teratur dan transparan.
+            </p>
+
+        </div>
+
+
+
+        <!-- KOLOM PRODUCT -->
+
+        <div class="footer-column">
+
+            <h3>
+                Product
+            </h3>
+
+            <a href="#features">
+                Features
+            </a>
+
+            <a href="#how-it-works">
+                How It Works
+            </a>
+
+            <a href="#">
+                Login
+            </a>
+
+            <a href="#">
+                Register
+            </a>
+
+        </div>
+
+
+
+        <!-- KOLOM COMPANY -->
+
+        <div class="footer-column">
+
+            <h3>
+                Company
+            </h3>
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="#">
+                Contact
+            </a>
+
+            <a href="#">
+                Privacy
+            </a>
+
+            <a href="#">
+                Terms
+            </a>
+
+        </div>
+
+
+
+        <!-- KOLOM SOCIAL MEDIA -->
+
+        <div class="footer-column">
+
+            <h3>
+                Follow Us
+            </h3>
+
+            <a href="#">
+                Instagram
+            </a>
+
+            <a href="#">
+                TikTok
+            </a>
+
+            <a href="#">
+                YouTube
+            </a>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <div class="container">
+
+            <span>
+                © 2026 Kasmate. All rights reserved.
+            </span>
+
+            <span>
+                Made for better class finance.
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+</body>
+</html>
+```
